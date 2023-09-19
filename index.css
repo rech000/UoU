@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+
+.love{
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 130px;
+  right: 490px;
+  color: rgb(240, 239, 239);
+  font-family: Bradley Hand, cursive;
+  font-size: 30px;
+  animation: transition 1s forwards;
+}
+
+.love1{
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 260px;
+  right: 490px;
+  color: rgb(211, 211, 211);
+  font-family: Bradley Hand, cursive;
+  font-size: 19px;
+  animation: transition 1s forwards;
+
+
+}
+
+@keyframes transition{
+  0%{ opacity: 0;}
+
+  100%{ opacity: 1;}
+
+}
+
+
+button{
+  background-color: black;
+  color: rgb(158, 158, 158);
+  font-size: 22px;
+  position: absolute;
+  text-align: center;
+  top: 350px;
+  right: 620px;
+  border: solid rgb(53, 53, 53) 1px; padding: 4px; padding-left: 18px; padding-right: 18px;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 2;
+  transition: 0.6s; 
+  animation: transition 0.5s forwards;
+}
+
+
+
+button:hover{
+  transition: 0.6s;
+  opacity: 4;
+  color: rgb(255, 255, 255);
+  background-color: rgb(41, 40, 40);
+  border: solid rgb(90, 88, 88) 1px; padding: 4px; padding-left: 18px; padding-right: 18px;
+}
+
+.menu{
+  padding: 0px;
+  margin: 0px;
+  width: 1366px;
+  height: 1000px;
+  background-image: url(img/andrew-kliatskyi-ZYuB4x5hA1Q-unsplash.jpg);
+  position: relative;
+
+}
+
+#Vi{
+  background-color: none;
+  color: rgb(175, 174, 174);
+  text-align: start;
+  font-size: 20px;
+  opacity: 2;
+  transition: 0.4s; 
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Verdana;
+  top: 19px;
+  position: absolute;
+  left: 30px;
+  animation: transition 0.5s forwards;
+}
+
+#Vi:hover{
+color: white;
+}
+
+
+
+
+
+#Galery{
+  position: absolute;
+  top: 19px;
+  right: 35px;
+  background-color: none;
+  color: rgb(175, 174, 174);
+  transition: 0.4s; 
+  cursor: pointer;
+  font-size: 22px;
+  font-family: Verdana;
+  text-decoration: none
+} 
+
+ #Galery:hover{
+  color: white;
+  } 
+
+  
+
+
+  
+  
